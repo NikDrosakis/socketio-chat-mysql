@@ -14,4 +14,4 @@ socketio in mysql chat implementation
 7. Open webpage [host]:3000/chat.html to run the chat 
 8. Open webpage [host] to run chat embedded in index.php or include iframe to any file (changing host iframe src)
 
-<img src="">
+<img src="https://github.com/NikDrosakis/socket.io-chat-mysql/blob/master/capture.JPG">
