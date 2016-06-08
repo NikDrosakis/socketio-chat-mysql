@@ -10,8 +10,8 @@ connectionsArray    = [],
 db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "UpvMy",
-  database: "speed2"
+  password: "[PASSWORD]",
+  database: "niklab"
   }),
 POLLING_INTERVAL = 1500,
 	pollingTimer;
@@ -40,7 +40,7 @@ http.listen(3000, function(){
 
 var pollingLoop = function () {
 
-	var query = db.query("SELECT fromid,toid,text,DATE_FORMAT(FROM_UNIXTIME(created), '%d/%m/%Y %H:%i') AS created FROM mes_chat WHERE fromid=1 AND toid=6"),
+	var query = db.query("SELECT fromid,toid,text,DATE_FORMAT(FROM_UNIXTIME(created), '%d/%m/%Y %H:%i') AS created FROM chat WHERE fromid=1 AND toid=6"),
 		chatter = []; // this array will contain the result of our db query
 
 	query
