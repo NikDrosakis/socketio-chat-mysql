@@ -7,7 +7,7 @@ socketio in mysql chat implementation
 
 1. Create Database 
 2. Run <a href="https://github.com/NikDrosakis/socket.io-chat-mysql/blob/master/chat/chat.sql">chat.sql</a>
-3. Edit chat.server.js file adding mysql host, username, password. Replace test.gr with server's host at chat.server.js, chat.js files
+3. Edit <a href="https://github.com/NikDrosakis/socket.io-chat-mysql/blob/master/chat.server.js">chat.server.js</a> file adding mysql host, username, password. Replace test.gr with server's host at chat.server.js, chat.js files
 4. install nodejs if not already installed in your system
 5. Run <b>npm install</b> command line to install all the necessary node-modules from package.json
 6. Run <b>node chat.server.js</b> command line to connect socket (by default at port 3000)
