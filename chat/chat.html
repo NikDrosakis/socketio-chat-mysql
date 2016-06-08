@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="chat.css" rel="stylesheet" type="text/css">
+   </head>
+  <body>
+
+<div class="chatBox">
+  <div class="chatBody" placeholder="Reason of changing time" style="bottom:0;">
+  <div class="chatTop">
+	  <div id="line_dot" class="userOnline"></div>
+	  <span class="chatTitle">NIK</span>
+	  <div class="chatClose">X</div>
+	  <div class="chatMin"></div>
+  </div>
+  <!-------------CHAT HISTORY-------------->
+  <div class="chatLoop">
+  <div class="chatReply">
+	<div class="chatResponceCont" id="chati" style="float: left;width: 100%;"><!------APPENDED CHAT LOOP---------></div>
+	</div>
+	</div>
+	  <!-------------nodejs version list of chat-------------->
+      <textarea id="chatText" type="text" class="chatText"></textarea>
+      <button id="chatSubmit">Send</button>
+    </div>
+    </div>
+
+      <!-------------New chat-------------->
+
+        <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
