@@ -1,7 +1,5 @@
 # socketio_chat
-a mysql chat socketio implemention with embedded socket.io in php file.
-
-socketio in mysql chat implementation
+a socketio chat mysql application
 
 <h2>SETUP</h2>
 
@@ -15,3 +13,9 @@ socketio in mysql chat implementation
 8. Open webpage [host] to run chat embedded in index.php or include iframe to any file (changing host iframe src)
 
 <img src="https://github.com/NikDrosakis/socket.io-chat-mysql/blob/master/capture.JPG">
+
+<h2>TODO</h2>
+- multiusers list from db
+- user images 
+- display writing... effect
+- multiple chat
